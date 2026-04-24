@@ -142,8 +142,9 @@ interface:
 # Example Registration Object Structure (optional)
 registration:
   socialLogins: ['github', 'google', 'discord', 'openid', 'facebook', 'apple', 'saml']
-  # allowedDomains:
-  # - "gmail.com"
+  allowedDomains:
+  - "gmail.com"
+  - "learnerspoint.org"
 
 # Example Balance settings
 # balance:
